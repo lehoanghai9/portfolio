@@ -8,7 +8,7 @@ export const Navbar = () => {
 
     className="fixed top-0 z-50 flex px-6 sm:px-10 lg:px-16 xl:px-24 w-screen py-3 text-white justify-between bg-[#0000003f] backdrop-blur-[40px] border-b-[1px] border-b-neutral-800 items-center ">
       <div className="flex font-Inter font-normal  items-center text-sm text-slate-400 "> 
-      <a href="localhost:3000">
+      <a href={process.env.REACT_APP_LINK}>
         <img src={logo} className="cursor-pointer w-[100px] h-[40 px] sm:w-[120px] sm:h-[50px] mr-28 z-50" alt="logo"></img>
       </a>
         
